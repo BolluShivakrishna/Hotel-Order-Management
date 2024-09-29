@@ -1,0 +1,145 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.container:hover {
+    background-color: #f7f7f7;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #ff9a8b;
+    margin-bottom: 20px;
+}
+
+select, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+select:hover, button:hover {
+    background-color: #ff6f61;
+    color: white;
+}
+
+#menu {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#order-list li {
+    background-color: #ffe0b2;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+#order-list li:hover {
+    background-color: #ffd1a3;
+}
+
+#order-list button {
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#order-list button:hover {
+    background-color: #e65100;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+#total-cost {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#menu {
+    margin-bottom: 20px;
+}
+
+select, button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#order-list li {
+    background-color: #e0e0e0;
+    padding: 8px;
+    margin-bottom: 5px;
+}*/

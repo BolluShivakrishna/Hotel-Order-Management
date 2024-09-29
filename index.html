@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Hotel</h1>
+        <div id="menu">
+            <label for="food">Choose a food item:</label>
+            <select id="food" onchange="updateFoodOptions()">
+                <option value="idli">Idli</option>
+                <option value="dosa">Dosa</option>
+                <option value="puri">Puri</option>
+                <option value="upma">Upma</option>
+            </select>
+
+            <div id="food-options"></div>
+
+            <label for="plate-size">Choose plate size:</label>
+            <select id="plate-size">
+                <option value="half">Half Plate</option>
+                <option value="full">Full Plate</option>
+            </select>
+
+            <button onclick="addToOrder()">Add to Order</button>
+        </div>
+
+        <h2>Your Order</h2>
+        <ul id="order-list"></ul>
+        <p>Total Cost: ₹<span id="total-cost">0.00</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
